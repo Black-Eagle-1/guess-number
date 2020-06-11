@@ -1,6 +1,13 @@
 import random
 
-asw = random.randint(1, 100)
+big = input("請輸入最大值: ")
+small = input("請輸入最小值: ")
+big = int(big)
+small = int(small)
+
+asw = random.randint(small, big)
+#asw = random.randint(1, 100)
+
 count = 0
 
 while True:
